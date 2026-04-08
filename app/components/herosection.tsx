@@ -23,7 +23,7 @@ export default function HeroSection() {
                 <h2 className="text-white text-[20px] lg:text-[32px] xl:text-[40px] font-bold whitespace-normal text-nowrap leading-tight">A Design-Lead Address in  </h2>
                 <h2 className="text-white text-[22px] sm:text-[28px] md:text-[28px] lg:text-[48px] font-bold whitespace-normal tracking-wide leading-tight">Dubai Design District
                 </h2>
-                <p className="text-white text-[14px] sm:text-[16px] md:text-lg font-light mb-4 sm:mb-6 text-pretty max-w-xl mx-auto md:mx-0">
+                <p className=" text-white text-[14px] sm:text-[16px] md:text-lg font-light mb-4 sm:mb-6 text-pretty max-w-xl mx-auto md:mx-0">
                   Set within Dubai Design District, Artistry One Residences unites creative energy with refined residential calm.
                 </p>
               </div>

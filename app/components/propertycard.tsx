@@ -29,12 +29,12 @@ export default function PropertyCard({
         </h2>
         <div className=" flex flex-row justify-between text-sm text-balance">
           <div className="flex flex-col" >
-            <div className="text-xs font-medium text-gray-500">Living area</div>
-            <div className="mt-1 text-16px font-semibold text-gray-800">{living}</div>
+            <div className="text-xs font-medium text-gray-500 medium">Living area</div>
+            <div className="mt-1 text-16px font-semibold text-gray-800 medium">{living}</div>
           </div>
           <div className="flex flex-col  items-start ">
-            <div className="text-xs font-medium text-gray-500">Starting Price</div>
-            <div className="mt-1 text-16px font-semibold text-gray-800 ">{price}</div>
+            <div className="text-xs font-medium text-gray-500 medium">Starting Price</div>
+            <div className="mt-1 text-16px font-semibold text-gray-800 medium ">{price}</div>
           </div>
         </div>
       </div>

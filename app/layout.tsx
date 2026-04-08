@@ -7,19 +7,20 @@ import localFont from 'next/font/local'
 const avenir = localFont({
   src: [
     {
-       path: "/fonts/AvenirNext-Medium.woff",
+      path: "/fonts/AvenirNext-Book.woff",
+      weight: '300',
+      style: 'normal',
+    },
+    {
+      path: "/fonts/AvenirNext-Medium.woff",
       weight: '400',
       style: 'normal',
     },
+    
     {
-       path: "/fonts/AvenirNext-Bold.woff",
+      path: "/fonts/AvenirNext-Bold.woff",
       weight: '500',
-      style: 'normal',
-    },
-    {
-       path: "/fonts/AvenirNext-Regular.woff",
-      weight: '300',
-      style: 'normal',
+      style: 'light',
     },
     
   ],

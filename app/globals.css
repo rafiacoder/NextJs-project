@@ -2,23 +2,30 @@
 body {
   overflow-x: hidden;
 }
-p, a ,button,label {
+
+.book,p{
+  font-family: var(--font-avenir);
+  font-weight: 300; /* book */
+}
+
+.medium,a,button,label {
   font-family: var(--font-avenir);
   font-weight: 400; /* Medium */
 }
 
+.avenir-bold {
+  font-family: var(--font-avenir);
+  font-weight:500; /* Bold */
+}
 h2 {
   font-family: var(--font-sansumi);
   font-weight:300; 
 }
 h1 {
   font-family: var(--font-sansumi);
-  font-weight:600; /* bold*/
+  font-weight:400; /* bold*/
 }
-.avenir-bold {
-  font-family: var(--font-avenir);
-  font-weight:500;
-}
+
 
 /* .btn-avenir {
   font-family: var(--font-avenir) !important;

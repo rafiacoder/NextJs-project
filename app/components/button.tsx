@@ -13,7 +13,7 @@ export default function Button({ href = "/", text, className }: ButtonProps) {
     <Link
       href={href}
       className={twMerge(
-        "text-black  w-auto h-10.5 bg-white px-8 py-5 rounded-md border border-black flex items-center justify-center gap-2 font-bold text-[14px]",
+        "avenir-bold text-black  w-auto h-10.5 bg-white px-8 py-5 rounded-md border border-black flex items-center justify-center gap-2 font-bold text-[14px]",
         
         className
       )}
