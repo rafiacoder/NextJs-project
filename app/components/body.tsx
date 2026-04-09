@@ -10,7 +10,7 @@ export default function Body() {
       image: body1,
       alt: "Living room",
       description: [
-        "The development offers one-, two- and three-bedroom residences, along with four-bedroom duplex penthouses, defined by purposeful lines and refined geometry that frame iconic views of the Burj Khalifa, the Downtown skyline and the Dubai Canal.",
+        "The development offers one, two and three bedroom residences, along with four-bedroom duplex penthouses, defined by purposeful lines and refined geometry that frame iconic views of the Burj Khalifa, the Downtown skyline and the Dubai Canal.",
         "A curated palette of materials, generous layouts and fluid connections between living spaces create homes that feel both expansive and grounded, supporting a lifestyle where comfort, clarity and contemporary design come together effortlessly.",
       ],
     },
@@ -21,8 +21,8 @@ export default function Body() {
       reverse: true,
       description: [
         "Located on the top levels, the duplex penthouses range from 4,638 to 7,765 sq. ft. and open onto generous terraces with private plunge pools, dual access points, and uninterrupted views across the city skyline.",
-        "Located on the top levels, the duplex penthouses range from 4,638 to 7,765 sq. ft. and open onto generous terraces with private plunge pools, dual access points, and uninterrupted views across the city skyline.",
-        "Located on the top levels, the duplex penthouses range from 4,638 to 7,765 sq. ft. and open onto generous terraces with private plunge pools, dual access points, and uninterrupted views across the city skyline.",
+        "Among them, two signature residences elevate the experience even further, featuring exclusive rooftop terraces and private plunge pools that frame panoramic vistas.",
+         "Defined by expansive volumes, seamless transitions, and a rare sense of seclusion, these residences offer an exceptional vantage point above the city, transforming daily living into an experience of clarity, presence, and distinction.",
       ],
     },
     {

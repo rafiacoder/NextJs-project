@@ -63,12 +63,12 @@ export default function FAQs() {
           <Button
             text="Register Your Interest"
             href="/resources"
-            className="bg-[#4B2417] text-white border-0 px-9"
+            className="bg-[#4B2417] text-white border-0 px-12 "
           />
           <Button
             text="Read More FAQs"
             href="/contact"
-            className="border border-gray-300 bg-white text-gray-700 px-12 "
+            className="border border-black bg-white text-gray-700 px-14  "
           />
         </div>
       </div>

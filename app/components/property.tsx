@@ -14,29 +14,29 @@ export default function Property() {
   ];
 
   return (
-   <section className="px-4 sm:px-6 md:px-10 lg:px-10 xl:px-14">
+   <section className="px-4 sm:px-6 md:px-10 lg:px-8 xl:px-14">
   <div className="mx-auto w-full">
     
     {/* Header */}
     <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-6">
       <div className="w-full md:w-1/2 flex flex-col gap-3">
-        <h1 className="text-3xl sm:text-4xl tracking-tight font-semibold">PROPERTY TYPES</h1>
-        <p className="text-[#252525]/80 font-body text-sm sm:text-base">
+        <h1 className="text-3xl sm:text-3xl tracking-wide font-semibold">PROPERTY TYPES</h1>
+        <p className="text-[#252525]/80 font-body text-[13.5px] text-balance sm:text-base">
           227 residences with 1-3BR apartments & 4BR duplex penthouses,
           featuring open-plan living, floor-to-ceiling windows, and iconic city views.
         </p>
       </div>
 
-      <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 mt-6 md:mt-0 w-full md:w-auto">
+      <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 mt-6 md:mt-10 w-full md:w-auto">
         <Button
           text="Request Availability"
           href="/resources"
-          className="whitespace-nowrap bg-[#4B2417] text-white border-0 w-full sm:w-auto"
+          className="whitespace-nowrap bg-[#4B2417] text-white border-0 w-full sm:w-auto px-12 h-9"
         />
         <Button
           text="Download All Floor Plans"
           href="/contact"
-          className="whitespace-nowrap w-full sm:w-auto"
+          className="whitespace-nowrap w-full sm:w-auto px-8"
         />
       </div>
     </div>

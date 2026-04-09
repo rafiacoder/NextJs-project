@@ -10,25 +10,24 @@ export default function Design() {
         <Image
           src={design}
           alt="design"
-          className="w-full max-w-[520px] h-auto rounded-xl object-cover"
+          className="w-full max-w-[540px] h-72 rounded-xl object-cover"
         />
 
         {/* Text */}
-        <div className="max-w-lg space-y-4 text-left">
-          <h1 className="text-[24px] lg:text-[40px] font-extrabold">
+        <div className=" max-w-xl h-auto space-y-4 text-left">
+          <h1 className="text-[24px] lg:text-[38px]  font-extrabold">
             A DISTRICT DEFINED BY DESIGN
           </h1>
-
-          <p className="text-gray-600">
-            Envisioned as a global nexus for design, fashion, art, and innovation,
-            Dubai Design District (d3) is set to become a destination where ideas
-            take form and creativity finds belonging.
+          <div className="flex flex-col gap-2">
+          <p className="text-gray-600 lg:text-[16px] ">
+            Envisioned as a global nexus for design, fashion, art, and innovation, Dubai Design District (d3) is set to become a destination where ideas take form and creativity finds belonging. Promenades, pathways, and waterfront vistas will cultivate a vibrant community enriched by creative energy.
           </p>
 
-          <p className="text-gray-600">
+          <p className="text-gray-600 lg:text-[14.5px]">
             Designed for walkability and interaction, every street and public
             space will celebrate artistic spirit.
           </p>
+          </div>
         </div>
 
       </div>

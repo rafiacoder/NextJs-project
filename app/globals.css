@@ -1,3 +1,4 @@
+
 @import "tailwindcss";
 body {
   overflow-x: hidden;
@@ -15,15 +16,15 @@ body {
 
 .avenir-bold {
   font-family: var(--font-avenir);
-  font-weight:500; /* Bold */
+  font-weight:600; /* Bold */
 }
 h2 {
   font-family: var(--font-sansumi);
-  font-weight:300; 
+  font-weight:500; 
 }
 h1 {
   font-family: var(--font-sansumi);
-  font-weight:400; /* bold*/
+  font-weight:600; /* bold*/
 }
 
 

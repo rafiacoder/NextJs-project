@@ -18,9 +18,9 @@ export default function About() {
                 Founded in 2002, Select Group is a dynamic and diverse corporation with premium property development at its core. Select Group operates a portfolio of investments in various sectors across the Middle East, the United Kingdom and Europe, supported by a global talent pool of over 750 employees. Select Group's development portfolio comprises over 20 million square feet of award-winning residential, commercial, hospitality and retail developments, delivering over 7,000 homes, with another 5,000 units in the pipeline, a combined Gross Development Value (GDV) of over AED 20 billion. Diversification has been a critical strategy for sustainable growth for Select Group with several other investment ventures within the fitness, wellness, technology and asset management sectors.
             </p>
 
-            <div className="flex flex-col sm:flex-row gap-4 sm:gap-8">
-              <Button text="Register Your Interest" href="/contact" className="border-0" />
-              <Button text="View More Developments" href="/resources" className="bg-[#4B2417] border border-white text-white" />
+            <div className="flex flex-col sm:flex-row gap-4">
+              <Button text="Register Your Interest" href="/contact" className="border-0 py-5.5  px-14" />
+              <Button text="View More Developments" href="/resources" className="bg-[#4B2417] border border-white text-white px-14 py-5" />
             </div>
 
             <div className="flex justify-end w-full">

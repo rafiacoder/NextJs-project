@@ -20,34 +20,35 @@ export default function Features({
 }: FeaturesProps) {
   return (
     <section
-      className={twMerge(
-        "flex flex-col gap-8 rounded-3xl bg-white p-10 shadow-sm md:flex-row md:items-center",
-        reverse && "md:flex-row-reverse",
-        className
-      )}
-    >
-      {/* Text */}
-      <div className="md:w-1/2">
-        <h1 className="text-3xl font-semibold tracking-wide">{title}</h1>
+  className={twMerge(
+    "flex flex-col gap-14 rounded-3xl bg-white p-10 shadow-sm md:flex-row md:items-center",
+    reverse && "md:flex-row-reverse",
+    className
+  )}
+>
+  {/* Image FIRST */}
+  <div className="md:w-1/2">
+    <Image
+      src={image}
+      alt={alt}
+      className="w-full rounded-2xl object-cover"
+    />
+  </div>
 
-        {description.map((para, index) => (
-          <p
-            key={index}
-            className="mt-4  text-[#252525]/80 text-sm leading-6"
-          >
-            {para}
-          </p>
-        ))}
-      </div>
+  {/* Text SECOND */}
+  <div className="md:w-1/2">
+    <h1 className="text-2xl font-semibold tracking-wide text-balance">{title}</h1>
 
-      {/* Image */}
-      <div className="md:w-1/2">
-        <Image
-          src={image}
-          alt={alt}
-          className="w-full rounded-2xl object-cover"
-        />
-      </div>
-    </section>
+    {description.map((para, index) => (
+      <p
+        key={index}
+        className="mt-4 text-[#252525]/90 text-[13.5px] leading-6 text-balanced"
+      >
+        {para}
+      </p>
+    ))}
+     
+  </div>
+</section>
   );
 }

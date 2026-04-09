@@ -28,12 +28,12 @@ export default function FloorPlans() {
   const maxIndex = slides.length;
 
   return (
-    <section className="px-4 sm:px-6 md:px-8 lg:px-10   bg-[#FFFDFC]">
-      <h1 className="text-center text-4xl font-semibold uppercase mb-8">
+    <section className="px-4 sm:px-6 md:px-8 lg:px-10  bg-[#FFFDFC]">
+      <h1 className="text-center text-4xl font-bold uppercase mb-12">
         FLOOR PLANS
       </h1>
 
-      <div className="relative overflow-hidden">
+      <div className="relative ">
         <div className="grid gap-6 md:grid-cols-3 pl-3 pr-3 ">
           {visibleSlides.map((slide, i) => (
             <div
@@ -46,7 +46,7 @@ export default function FloorPlans() {
                   alt="floor-plan"
                   width={1000}
                   height={1000}
-                  className=" pl-3 h-65 md:h-80 w-full object-cover transition-transform duration-200 hover:scale-[1.03]"
+                  className=" pl-3 h-55 md:h-80 w-full object-cover"
                 />
               </div>
             </div>
@@ -57,7 +57,7 @@ export default function FloorPlans() {
         <button
           type="button"
           onClick={() => setActiveIndex((activeIndex - 1 + maxIndex) % maxIndex)}
-          className="absolute left-2 top-1/2 -translate-y-1/2 h-11 w-11 rounded-full bg-[#4F2B12] text-white shadow-lg transition hover:opacity-90"
+          className="absolute left-2 top-1/2 -translate-y-1/2  -translate-x-1/2 h-11 w-11 rounded-full bg-[#4F2B12] text-white shadow-lg transition hover:opacity-90"
         >
           ‹
         </button>
@@ -65,7 +65,7 @@ export default function FloorPlans() {
         <button
           type="button"
           onClick={() => setActiveIndex((activeIndex + 1) % maxIndex)}
-          className="absolute right-2 top-1/2 -translate-y-1/2 h-11 w-11 rounded-full bg-[#4F2B12] text-white shadow-lg transition hover:opacity-90"
+          className="absolute right-2 top-1/2 -translate-y-1/2  translate-x-1/2 h-11 w-11 rounded-full bg-[#4F2B12] text-white shadow-lg transition hover:opacity-90"
         >
           ›
         </button>

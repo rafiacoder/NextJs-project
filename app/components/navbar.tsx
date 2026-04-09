@@ -49,7 +49,7 @@ export default function Navbar() {
 
             ${
               scrollState === "top"
-                ? "bg-[#4B2417] border-white/20"
+                ? "bg-[#3b1a0e] border-white/20"
                 : scrollState === "glass"
                 ? "bg-white/10 backdrop-blur-md backdrop-saturate-150 border-white/20"
                 : "bg-white border-gray-200 shadow-md"
@@ -84,11 +84,11 @@ export default function Navbar() {
           </nav>
 
           {/* Desktop Button */}
-          <div className="hidden lg:block">
+          <div className="hidden lg:block ">
             <Button
               text="Contact Us"
               href="/contact"
-              className={`
+              className={`h-8
                 transition-all duration-500
                 ${
                   scrollState === "solid"
