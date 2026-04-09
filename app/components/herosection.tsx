@@ -1,4 +1,4 @@
-﻿import Button from "./button";
+﻿﻿import Button from "./button";
 import Image from "next/image";
 import herosection from "../../public/herosection.png"
 import LightGray from "../../public/LightGray.png"
@@ -10,11 +10,12 @@ export default function HeroSection() {
 
       <Image src={herosection} alt="dubaidesign" className="w-full h-full  object-cover absolute inset-0" />
 
-      <div className="absolute inset-0  bg-gradient-to-b from-[#4B2417]/90 via-[#4B2417]/70 to-[#4B2417]/50 md:bg-gradient-to-r from-[#4B2417] via-[#4B2417]/60 to-transparent" />
+    <div className="absolute inset-0  bg-gradient-to-r from-[#3F2315] via-[#9C5930]/60 to-transparent" />
+    <div className="absolute inset-0 bg-gradient-to-b from-[#531F11] via-[#783B1C]/0 to-[#925331]/5" />
       {/* CONTENT */}
      <div className=" p-8  pt-14 md:px-8  lg:pt-0">
      {/* Dubai Design */}
-          <div className=" container mx-auto relative w-full  max-w-4xl mx-auto lg:m-6  md:mx-0 items-center md:items-start flex flex-col pt-24 pb-48 sm:pb-52 md:pt-24">
+          <div className=" container  relative w-full  max-w-4xl mx-auto lg:m-6  md:mx-0 items-center md:items-start flex flex-col pt-24 pb-48 sm:pb-52 md:pt-24">
 
             <div className=" flex flex-col gap-4 w-full sm:h-auto md:p-6 md:m-6 max-w-full">
 
