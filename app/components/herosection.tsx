@@ -7,18 +7,18 @@ import { FaCheckCircle } from "react-icons/fa";
 export default function HeroSection() {
 
   return (
-    <div className="relative w-full h-[780px] lg:h-auto overflow-x-hidden" id="hero">
+    <div className="relative  h-[780px] lg:h-auto overflow-x-hidden" id="hero">
 
       <Image src={hero} alt="dubaidesign" className="w-full h-full  object-cover absolute inset-0" />
 
     <div className="absolute inset-0  bg-gradient-to-r from-[#3F2315] via-[#9C5930]/60 to-transparent" />
     <div className="absolute inset-0 bg-gradient-to-b from-[#531F11] via-[#783B1C]/0 to-[#925331]/5" />
       {/* CONTENT */}
-     <div className=" p-8  pt-14 md:px-8  lg:pt-0">
+     <div className=" p-8  pt-14  lg:pt-0 ">
      {/* Dubai Design */}
-          <div className=" container  relative w-full  max-w-4xl mx-auto lg:m-6  md:mx-0 items-center md:items-start flex flex-col pt-24 pb-48 sm:pb-52 md:pt-24">
+          <div className=" container  relative  max-w-6xl mx-auto lg:m-6  md:mx-0 items-center md:items-start flex flex-col pt-24 pb-48 sm:pb-52 md:pt-24">
 
-            <div className=" flex flex-col gap-4 w-full sm:h-auto md:p-6 md:m-6 max-w-full">
+            <div className=" flex flex-col gap-4 w-full sm:h-auto md:py-6 md:my-6 max-w-full">
 
               <Image src={LightGray} alt="Artistry" className="w-28 sm:w-32 md:w-36 h-auto md:mx-0" />
               <div className="flex flex-col gap-4 lg:gap-2">
@@ -38,7 +38,7 @@ export default function HeroSection() {
             </div>
           </div>
       {/* Key Features */}
-          <div className="absolute bottom-12 lg:bottom-22 left-6 right-6 lg:left-[86px] lg:right-[86px] z-10 lg:px-4 lg:px-6  ">
+          <div className="absolute bottom-12 lg:bottom-22 left-6 right-6  z-10 lg:px-4 lg:px-6  ">
             <div className="container mx-auto bg-white/10 backdrop-blur-md rounded-lg px-8 py-8  ">
               <h2 className="text-xl md:text-3xl text-white mb-4 sm:mb-6">Key Features</h2>
 
