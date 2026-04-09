@@ -38,7 +38,7 @@ export default function HeroSection() {
             </div>
           </div>
       {/* Key Features */}
-          <div className="absolute bottom-8 lg:bottom-22 left-6 right-6 lg:left-[86px] lg:right-[86px] z-10 lg:px-4 lg:px-6  ">
+          <div className="absolute bottom-12 lg:bottom-22 left-6 right-6 lg:left-[86px] lg:right-[86px] z-10 lg:px-4 lg:px-6  ">
             <div className="container mx-auto bg-white/10 backdrop-blur-md rounded-lg px-8 py-8  ">
               <h2 className="text-xl md:text-3xl text-white mb-4 sm:mb-6">Key Features</h2>
 
