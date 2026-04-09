@@ -1,6 +1,7 @@
 ﻿﻿import Button from "./button";
 import Image from "next/image";
 import herosection from "../../public/herosection.png"
+import hero from "../../public/hero.webp"
 import LightGray from "../../public/LightGray.png"
 import { FaCheckCircle } from "react-icons/fa";
 export default function HeroSection() {
@@ -8,7 +9,7 @@ export default function HeroSection() {
   return (
     <div className="relative w-full h-[780px] lg:h-auto overflow-x-hidden" id="hero">
 
-      <Image src={herosection} alt="dubaidesign" className="w-full h-full  object-cover absolute inset-0" />
+      <Image src={hero} alt="dubaidesign" className="w-full h-full  object-cover absolute inset-0" />
 
     <div className="absolute inset-0  bg-gradient-to-r from-[#3F2315] via-[#9C5930]/60 to-transparent" />
     <div className="absolute inset-0 bg-gradient-to-b from-[#531F11] via-[#783B1C]/0 to-[#925331]/5" />
