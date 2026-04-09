@@ -14,9 +14,9 @@ export default function HeroSection() {
     <div className="absolute inset-0  bg-gradient-to-r from-[#3F2315] via-[#9C5930]/60 to-transparent" />
     <div className="absolute inset-0 bg-gradient-to-b from-[#531F11] via-[#783B1C]/0 to-[#925331]/5" />
       {/* CONTENT */}
-     <div className=" p-8  pt-14  lg:pt-0 ">
+     <div className=" p-8  pt-14  lg:pt-0 container mx-auto">
      {/* Dubai Design */}
-          <div className=" container  relative  max-w-6xl mx-auto lg:m-6  md:mx-0 items-center md:items-start flex flex-col pt-24 pb-48 sm:pb-52 md:pt-24">
+          <div className=" container  relative  mx-auto lg:m-6  md:mx-0 items-center md:items-start flex flex-col pt-24 pb-48 sm:pb-52 md:pt-24">
 
             <div className=" flex flex-col gap-4 w-full sm:h-auto md:py-6 md:my-6 max-w-full">
 
@@ -38,7 +38,7 @@ export default function HeroSection() {
             </div>
           </div>
       {/* Key Features */}
-          <div className="absolute bottom-12 lg:bottom-22 left-6 right-6  z-10 lg:px-4 lg:px-6  ">
+          <div className=" absolute bottom-12  lg:bottom-22 left-6 right-6  z-10 lg:px-4 lg:px-6  ">
             <div className="container mx-auto bg-white/10 backdrop-blur-md rounded-lg px-8 py-8  ">
               <h2 className="text-xl md:text-3xl text-white mb-4 sm:mb-6">Key Features</h2>
 
