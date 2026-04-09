@@ -1,5 +1,8 @@
+"use client"; // ⚠ must be the very first line
+
+import { useState } from "react";
 import Button from "./button";
-import { IoIosAddCircle } from "react-icons/io";
+import { IoIosAddCircle, IoIosRemoveCircle } from "react-icons/io";
 
 const faqItems = [
   {
@@ -30,12 +33,18 @@ const faqItems = [
 ];
 
 export default function FAQs() {
+  const [openIndex, setOpenIndex] = useState<number | null>(0); // first open by default
+
+  const toggle = (idx: number) => {
+    setOpenIndex(openIndex === idx ? null : idx);
+  };
+
   return (
     <div className="w-full px-4 sm:px-6 md:px-8 lg:px-10">
       <div className="mx-auto lg:max-w-6xl flex flex-col gap-10">
         <div className="flex flex-col items-start lg:items-center text-center gap-3">
           <h1 className="text-5xl font-semibold">FAQs</h1>
-          <p className="font-body text-sm  lg:text-[16px] font-normal text-[#252525]/80 mb-10">
+          <p className="font-body text-sm lg:text-[16px] font-normal text-[#252525]/80 mb-10">
             Project specific frequently asked questions.
           </p>
         </div>
@@ -44,31 +53,42 @@ export default function FAQs() {
           {faqItems.map((item, idx) => (
             <details
               key={idx}
+              open={openIndex === idx}
               className="group rounded-xl border border-gray-200 bg-white shadow-sm"
             >
-              <summary className="flex cursor-pointer items-center justify-between gap-4 px-4 py-6 text-left text-lg font-medium text-gray-900 ">
+              <summary
+                onClick={(e) => {
+                  e.preventDefault(); // prevent default toggle
+                  toggle(idx);
+                }}
+                className="flex cursor-pointer items-center justify-between gap-4 px-4 py-6 text-left text-lg font-medium text-gray-900"
+              >
                 <span className="avenir-bold">{item.question}</span>
-                <span className="flex  items-center justify-center rounded-full bg-white ">
-                  <IoIosAddCircle className="w-6 h-6 text-gray-200" />
+                <span className="flex items-center justify-center rounded-full bg-white">
+                  {openIndex === idx ? (
+                    <IoIosRemoveCircle className="w-6 h-6 text-black" />
+                  ) : (
+                    <IoIosAddCircle className="w-6 h-6 text-gray-200" />
+                  )}
                 </span>
               </summary>
-              <div className="px-5 pb-4 pt-0 text-md text-gray-600 ">
+              <div className="px-5 pb-4 pt-0 text-md text-gray-600">
                 {item.answer}
               </div>
             </details>
           ))}
         </div>
 
-        <div className="flex flex-col lg:flex-row  justify-center items-center gap-4 pt-6 ">
+        <div className="flex flex-col lg:flex-row justify-center items-center gap-4 pt-6">
           <Button
             text="Register Your Interest"
             href="/resources"
-            className="bg-[#4B2417] text-white border-0 px-12 "
+            className="bg-[#4B2417] text-white border-0 px-12 py-5"
           />
           <Button
             text="Read More FAQs"
             href="/contact"
-            className="border border-black bg-white text-gray-700 px-14  "
+            className="border border-black bg-white text-gray-700 px-14"
           />
         </div>
       </div>
