@@ -50,7 +50,7 @@ export default function Form() {
   };
 
   return (
-    <div className="w-auto h-auto px-4 sm:px-6 md:px-8 lg:px-10">
+    <div id="contact" className="w-auto h-auto px-4 sm:px-6 md:px-8 lg:px-10">
       <div className="container mx-auto flex flex-col md:flex-row px-5 lg:px-0 gap-8 lg:gap-29 max-w-6xl">
         {/* LEFT TEXT */}
         <div className="flex flex-col mt-6 gap-0">
@@ -88,7 +88,7 @@ export default function Form() {
                 Email <span className="text-red-500">*</span>
               </label>
               <input name="email" placeholder="you@example.com" type="email" required className="border border-gray-300 rounded-[10px] pl-4 pr-4 py-4 text-[14px] w-full placeholder:text-gray-400 focus:outline-none focus:border-gray-300" />
-            </div> {/* ✅ Fixed: was <div/> before */}
+            </div> 
 
             {/* Phone */}
             <div className="flex flex-col">
@@ -133,7 +133,7 @@ export default function Form() {
                 loading ? "bg-gray-400 cursor-not-allowed" : "bg-[#4B2417] hover:bg-[#3a1b12]"
               }`}
             >
-              {loading ? "Submitting..." : "Submit"}
+              {loading ? "Submitting" : "Submit"}
             </button>
           </form>
         </div>

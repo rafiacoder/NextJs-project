@@ -9,7 +9,7 @@ export default function Gallery() {
   const [activeTab, setActiveTab] = useState('exteriors');
 
   return (
-    <section className="w-full px-4 sm:px-6 md:px-10 lg:px-14">
+    <section id="gallery" className="w-full px-4 sm:px-6 md:px-10 lg:px-14">
   <div className="mx-auto max-w-6xl flex flex-col items-center">
     
     <h1 className="text-center text-4xl tracking-wide">GALLERY</h1>
@@ -43,7 +43,7 @@ export default function Gallery() {
         alt={activeTab === 'exteriors' ? 'Exterior view' : 'Interior view'}
         width={900}
         height={500}
-        className="w-full h-auto max-h-[500px] object-cover rounded-xl"
+        className="w-full h-auto max-h-125 object-cover rounded-xl"
       />
     </div>
   </div>

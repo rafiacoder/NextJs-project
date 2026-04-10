@@ -40,7 +40,7 @@ export default function FAQs() {
   };
 
   return (
-    <div className="w-full px-4 sm:px-6 md:px-8 lg:px-10">
+    <div id="faqs" className="w-full px-4 sm:px-6 md:px-8 lg:px-10">
       <div className="mx-auto lg:max-w-6xl flex flex-col gap-10">
         <div className="flex flex-col items-start lg:items-center text-center gap-3">
           <h1 className="text-5xl font-semibold">FAQs</h1>
@@ -82,12 +82,14 @@ export default function FAQs() {
         <div className="flex flex-col lg:flex-row justify-center items-center gap-4 pt-6">
           <Button
             text="Register Your Interest"
-            href="/resources"
+            href="/contact"
+            scrollTo="contact"
             className="bg-[#4B2417] text-white border-0 px-12 py-5"
           />
           <Button
             text="Read More FAQs"
-            href="/contact"
+            href="/faqs"
+            scrollTo="faqs"
             className="border border-black bg-white text-gray-700 px-14"
           />
         </div>

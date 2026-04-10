@@ -15,9 +15,9 @@ export default function Creativity() {
           <p className="text-gray-600 text-[16px]">
            Dubai Design District (d3) is strategically positioned with seamless access to Business Bay, Downtown Dubai, the Burj Khalifa, Dubai Mall, DIFC, and major business and cultural destinations. The location offers effortless connectivity to Al Ain Road, Ras Al Khor Road, Al Khail Road and key transport links, providing convenient reach across the city.
           </p>
-         <Button text="View on Google Maps " href="/resources" className="w-full md:w-1/2 bg-[#4B2417] text-white border-0 " />
+         <Button text="View on Google Maps " href="/contact" scrollTo="contact" className="w-full md:w-1/2 bg-[#4B2417] text-white border-0 " />
         </div>
-        <Image src={design} alt="design" className="w-[520px] h-auto rounded-xl object-cover" />
+        <Image src={design} alt="design" className="w-130 h-auto rounded-xl object-cover" />
       </div>
     </div>
   );

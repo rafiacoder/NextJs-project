@@ -4,7 +4,9 @@
 @import "shadcn/tailwind.css";
 
 @custom-variant dark (&:is(.dark *));
-
+html {
+  scroll-behavior: scroll;
+}
 body {
   overflow-x: hidden;
 }

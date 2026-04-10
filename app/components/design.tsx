@@ -10,7 +10,7 @@ export default function Design() {
         <Image
           src={design}
           alt="design"
-          className="w-full max-w-[540px] h-72 rounded-xl object-cover"
+          className="w-full max-w-135 h-72 rounded-xl object-cover"
         />
 
         {/* Text */}

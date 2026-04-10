@@ -14,7 +14,7 @@ export default function Property() {
   ];
 
   return (
-   <section className="px-4 sm:px-6 md:px-10 lg:px-8 xl:px-14">
+   <section id="services" className="px-4 sm:px-6 md:px-10 lg:px-8 xl:px-14">
   <div className="mx-auto w-full">
     
     {/* Header */}
@@ -30,12 +30,16 @@ export default function Property() {
       <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 mt-6 md:mt-10 w-full md:w-auto">
         <Button
           text="Request Availability"
-          href="/resources"
+          href="/contact"
+          scrollTo="contact"
+
           className="whitespace-nowrap bg-[#4B2417] text-white border-0 w-full sm:w-auto px-12 h-9"
         />
         <Button
           text="Download All Floor Plans"
-          href="/contact"
+          href="/property-types"
+          scrollTo="services"
+
           className="whitespace-nowrap w-full sm:w-auto px-8"
         />
       </div>

@@ -28,7 +28,7 @@ export default function FloorPlans() {
   const maxIndex = slides.length;
 
   return (
-    <section className="px-4 sm:px-6 md:px-8 lg:px-10  bg-[#FFFDFC]">
+    <section id="floorplans" className="px-4 sm:px-6 md:px-8 lg:px-10  bg-[#FFFDFC]">
       <h1 className="text-center text-4xl font-bold uppercase mb-12">
         FLOOR PLANS
       </h1>

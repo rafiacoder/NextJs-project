@@ -7,12 +7,12 @@ import { FaCheckCircle } from "react-icons/fa";
 export default function HeroSection() {
 
   return (
-    <div className="relative  h-[780px] lg:h-auto overflow-x-hidden" id="hero">
+    <div className="relative  h-195 lg:h-auto overflow-x-hidden" id="hero">
 
       <Image src={hero} alt="dubaidesign" className="w-full h-full  object-cover absolute inset-0" />
 
-    <div className="absolute inset-0  bg-gradient-to-r from-[#3F2315] via-[#9C5930]/60 to-transparent" />
-    <div className="absolute inset-0 bg-gradient-to-b from-[#531F11] via-[#783B1C]/0 to-[#925331]/5" />
+    <div className="absolute inset-0  bg-linear-to-r from-[#3F2315] via-[#9C5930]/60 to-transparent" />
+    <div className="absolute inset-0 bg-linear-to-b from-[#531F11] via-[#783B1C]/0 to-[#925331]/5" />
       {/* CONTENT */}
      <div className=" p-8  pt-14  lg:pt-0 container mx-auto">
      {/* Dubai Design */}
@@ -31,14 +31,14 @@ export default function HeroSection() {
                 </p>
               </div>
               <div className="flex flex-row gap-2 sm:gap-6 w-full max-w-md mx-auto justify-center md:max-w-none md:mx-0 md:justify-start">
-                <Button text="Register" href="/contact" className="border-0 flex-1 min-w-0 justify-center px-3 md:px-10 text-xs sm:text-[14px] md:flex-initial md:w-auto" />
-                <Button text="Find Out More" href="/resources" className="bg-[#4B2417] text-white border-0 flex-1 min-w-0 justify-center px-3 md:px-6 text-xs sm:text-[14px] md:flex-initial md:w-auto py-5" />
+                <Button text="Register" href="/contact" scrollTo="contact" className="border-0 flex-1 min-w-0 justify-center px-3 md:px-10 text-xs sm:text-[14px] md:flex-initial md:w-auto" />
+                <Button text="Find Out More" href="/floorplans" scrollTo="floorplans" className="bg-[#4B2417] text-white border-0 flex-1 min-w-0 justify-center px-3 md:px-6 text-xs sm:text-[14px] md:flex-initial md:w-auto py-5" />
               </div>
               </div>
             </div>
           </div>
       {/* Key Features */}
-          <div className=" absolute bottom-12  lg:bottom-22 left-6 right-6  z-10 lg:px-4 lg:px-6  ">
+          <div className=" absolute bottom-12  lg:bottom-22 left-6 right-6  z-10  lg:px-6  ">
             <div className="container mx-auto bg-white/10 backdrop-blur-md rounded-lg px-8 py-8  ">
               <h2 className="text-xl md:text-3xl text-white mb-4 sm:mb-6">Key Features</h2>
 
